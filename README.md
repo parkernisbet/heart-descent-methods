@@ -9,4 +9,4 @@ Possible choices for "selector_method" are:
 
 My implemented loss function is based off the generalized formula for binary cross entropy, deviating to instead provide the averaged loss across all data points used.
 
-Unsurprisingly, the adaptive coordinate selection method came out on top, with a 35% improvement on iterations to convergence. Between the random and cyclic selector methods, cyclic saw slight though not significant improvements on iteration count and time. Perhaps the most notable difference between the latter two "underperforming" coordinate selector methods, other than iteration and completion time, was the more smoothed nature of the iterations vs average loss plot.
+Unsurprisingly, the adaptive coordinate selection method came out on top, with a 35% improvement on iterations to convergence. Between the random and cyclic selector methods, cyclic saw slight though not significant improvements on iteration count and time. The most notable difference between the latter two "underperforming" coordinate selector methods was the more smoothed nature of the iterations vs average loss plot for 'c'.
